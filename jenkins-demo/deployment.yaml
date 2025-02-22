@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: bigzaza/argocd:25b60ce5188172a23984e1e07e6c0aa5ba560716
+      - image: bigzaza/argocd:d5f6a02e8526a33fd9d75642ffbf7e75d57bf2f7
         name: solar-system
         ports: 
         - containerPort: 80
